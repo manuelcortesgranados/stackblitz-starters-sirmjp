@@ -45,6 +45,26 @@ body {
 }
 
 /* END OF BASE STYLES     */
-.container {
+.container{
+  /* Esta es la direccion de flex */
   display: flex;
+  flex-direction: row;
+
+  /* center, space-arount */
+  justify-content: flex-star;
+
+  /* Para modificar en el eje opuesto [columnas] y agregar un espacio entre cada item*/
+  align-items: flex-start;
+  gap: 1em;
+
+
+  /* Como envolver los items: wrap */
+  flex-wrap: nowrap;
+
+}
+
+.item-3{
+
+/* Esto para que se pueda completar el resto del espacio en el flexbox*/
+/* flex: 1 */
 }
